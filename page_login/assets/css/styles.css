@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans Regular', 'Lucida Grande';
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('/assets/img/flat-mountains.svg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    width: 400px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+.container h1 {
+    font-size: 30px;
+    text-align: left;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.container .form-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 20px auto;
+}
+
+.form-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 20px;
+    color: #fff;
+    padding: 20px;
+}
+
+.form-box input::placeholder {
+    color: #ffff;
+}
+
+.container .btn {
+    margin-left: 100px;
+    width: 100px;
+    height: 40px;
+    background: #fff;
+    outline: none;
+    cursor: pointer;
+    border: 2px solid rgba(255, 255, 255, 255);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #000000;
+    font-weight: 600;
+}
+
+.container .btn:hover{
+    transform: scale(1.05);
+    color: #000000;
+    background-color: #FF8C00;
+}
+
+form i{
+    position: absolute;
+    align-items: center;
+    right: 20px;
+    top: 5%;
+    right: 10px;
+    font-size: 22px;
+    color: #fff;
+}
